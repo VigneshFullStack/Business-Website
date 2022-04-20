@@ -1,0 +1,187 @@
+ header div p a i {
+     color: aliceblue;
+     margin: 0 7px;
+ }
+ .get-started-btn, .service-btn, .more-projects-btn, .get-quote-btn {
+     background-color: rgb(47, 255, 92);
+     color: white;
+     border-radius: 25px;
+ }
+nav ul li {
+    margin: 10px 5px 0 5px;
+}
+.main-sec { 
+    background: url("https://business.amazon.com/assets/global/images/hero/AB-Homepage-Hero-Test-2.png.transform/2880x960/image.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.btn-outline-warning {
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.card-icon i {
+    color: rgb(90, 204, 14);
+    background-color: rgb(190, 231, 162);
+    font-size: 30px;
+    padding: 30px;
+    border: 1px solid rgb(91, 187, 27);
+    border-radius: 40% 55% 40% 40%;
+    margin-bottom: 20px;
+}
+section {
+    position: relative;
+}
+.cards {
+    position: absolute;
+    width: 100%;
+    z-index: 100000;
+    bottom: -150px;
+}
+.cards .card:hover {
+    background-color: black;
+    color: wheat;
+    transition: .7s ease-in-out;
+}
+.row {
+    margin: 0;
+}
+.about {
+    margin: 250px 0 100px 0;
+}
+.font-style {
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+}
+.achievements {
+   font-size: 50px;
+   color: greenyellow;
+   margin-right: 10px;
+}
+.awards-count {
+    font-size: 30px;
+    font-weight: bold;
+}
+.services {
+    position: relative;
+    height: 400px;
+    background-color: black;
+}
+.service-link {
+    text-decoration: none;
+    color: black;
+}
+.team, .quote {
+    display: flex;
+    justify-content: center;
+}
+.service-cards {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+    bottom: -180px;
+}
+.role, .quote-author, .divider, .subscribe {
+    color: rgb(90, 204, 14);
+}
+.dept {
+    width: 100%;
+    margin: 0%;
+}
+.profile {
+    border-radius: 50%;
+}
+.solution {
+    background: url("https://www.haltonhills.ca/en/images/pageImages/Page%20Headers/Business%20page%20header.jpg") no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.service {
+    text-decoration: none;
+    color: #6c757d;
+}
+.text-justify {
+    text-align: justify;
+}
+.our-team {
+    margin-top: 250px;
+}
+.social-icons {
+    font-size: 18px;
+    color: white;
+    padding: 7px 10PX;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px;
+}
+.social-icons:hover {
+    background-color: rgb(19, 218, 19);
+    border: 1px solid green;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.subscribe-div input {
+    width: 300px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding: 7px 0 7px 15px;
+    outline: none;
+    color: white;
+    background-color: #2e3134;
+}
+.subscribe-div .subscribe-btn {
+    color: white;
+    font-size: 12px;
+    padding: 12px 15px 10px 11px;
+    border-radius: 0 20px 20px 0;
+    text-decoration: none;
+    background-color: rgb(120 205 66 / 88%);
+}
+
+/* media query */
+@media only screen and (max-width: 995px) {
+   .subscribe-div input {
+       width: 200px;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        margin: 10px 0;
+    }
+    .cards {
+        bottom: -380px;
+    }
+    .about {
+        margin-top: 430px;
+    }
+    .award {
+        text-align: center;
+    }
+    .newsletter {
+       margin-top: 20px;
+    }
+    .more-projects-btn {
+        margin-top: 10px !important;
+    } 
+    .float-end {
+       float: none !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .cards {
+        bottom: -824px;
+    }
+    .about {
+        margin-top: 870px;
+    }
+    .service-cards {
+        bottom: -1215px;
+    }
+    .our-team {
+        margin-top: 1260px;
+    }
+}
+
